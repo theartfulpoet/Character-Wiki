@@ -82,11 +82,61 @@ body{
 	line-height: 1.7;
 }
 
+
+
+
+.top-nav {
+    position: sticky;
+    top: 0;
+
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+
+    background: #705944;
+
+    padding: 10px 20px;   
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    border-bottom: 1px solid #b5a287;
+
+    z-index: 999;
+}
+
+.top-nav a {
+    color: #f2efe9;
+    text-decoration: none;
+
+    font-family: Georgia, serif;
+    font-size: 15px;
+
+    padding: 6px 12px;
+    border-radius: 10px;
+
+    transition: 0.2s ease;
+}
+
+.top-nav a:hover {
+    background: rgba(245, 245, 245, 0.12);
+    transform: translateY(-1px);
+}
+
+
 </style>
 </head>
 
 
 <body>
+
+
+<div class="top-nav">
+  <a href="index.html">Home</a>
+</div>
+
 
 <div class="page">
 
